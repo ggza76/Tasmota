@@ -1,18 +1,14 @@
 /*
   af_AF.h - localization for Afrikaans - Afrikaans for Tasmota
-
   Copyright (C) 2020  Christiaan Heerze
-
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   (at your option) any later version.
-
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
@@ -78,7 +74,7 @@
 #define D_CT_POWER "CT Power"
 #define D_CURRENT "Stroom"          // As in Voltage and Current
 #define D_DATA "Data"
-#define D_DARKLIGHT "Donker"
+#define D_DARKLIGHT "Donkerlig"		//Donker changed to Donkerlig
 #define D_DEBUG "Ontfout"
 #define D_DEWPOINT "Dou punt"
 #define D_DISABLED "Gedeaktiveer"
@@ -108,7 +104,7 @@
 #define D_GATEWAY "Gateway"
 #define D_GROUP "Groep"
 #define D_HOST "Gasheer"
-#define D_HOSTNAME "Gasheername"
+#define D_HOSTNAME "Gasheernaam"	// Changed from plural to singular
 #define D_HUMIDITY "Humiditeit"
 #define D_ILLUMINANCE "Verligting"
 #define D_IMMEDIATE "onmiddellik"      // Button immediate
@@ -127,7 +123,7 @@
 #define D_NOISE "Geraas"
 #define D_NONE "Geen"
 #define D_O2 "Suurstof"
-#define D_OFF "Uit"
+#define D_OFF "Af"		//Uit to Af
 #define D_OFFLINE "Vanlyn"
 #define D_OK "Ok"
 #define D_ON "aan"
@@ -143,7 +139,7 @@
 #define D_POWERUSAGE_REACTIVE "reaktiewe krag"
 #define D_PRESSURE "Druk"
 #define D_PRESSUREATSEALEVEL "Druk op seevlak"
-#define D_PROGRAM_FLASH_SIZE "Program Flash Grootte"
+#define D_PROGRAM_FLASH_SIZE "Program Flash Groote"	/Fixed spellling Mistake
 #define D_PROGRAM_SIZE "Program Grootte"
 #define D_PROJECT "Projek"
 #define D_RAIN "Reën"
@@ -177,7 +173,7 @@
 #define D_TVOC "TVOC"
 #define D_UPGRADE "opgradeer"
 #define D_UPLOAD "Laai op"
-#define D_UPTIME "Uptyd"
+#define D_UPTIME "Optyd"	//Up changed to Op
 #define D_USER "Gebruiker"
 #define D_UTC_TIME "UTC"
 #define D_UV_INDEX "UV Indeks"
@@ -188,7 +184,7 @@
 #define D_UV_INDEX_5 "1ste/2de graad sonbrand"
 #define D_UV_INDEX_6 "3e graad sonbrand"
 #define D_UV_INDEX_7 "Buite bereik"         // Out of Range
-#define D_UV_LEVEL "UV Level"
+#define D_UV_LEVEL "UV Vlak"			//Level changed to Vlak
 #define D_UV_POWER "UV krag"
 #define D_VERSION "Weergawe"
 #define D_VOLTAGE "Spanning"
@@ -212,28 +208,28 @@
 // support.ino
 #define D_OSWATCH "osWatch"
 #define D_BLOCKED_LOOP "Geblokkeerde lus"
-#define D_WPS_FAILED_WITH_STATUS "WPSconfig kon nie status kry nie"
+#define D_WPS_FAILED_WITH_STATUS "WPSconfig kan nie status kry nie"	//kon changed to kan
 #define D_ACTIVE_FOR_3_MINUTES "3 minute aktief"
-#define D_FAILED_TO_START "kon nie begin nie"
+#define D_FAILED_TO_START "kan nie begin nie"			//kon changed to kan
 #define D_PATCH_ISSUE_2186 "Patch issue 2186"
 #define D_CONNECTING_TO_AP "Koppel tans aan AP"
 #define D_IN_MODE "in mode"
-#define D_CONNECT_FAILED_NO_IP_ADDRESS "Kon nie verbind nie omdat geen IP-adres ontvang is nie"
-#define D_CONNECT_FAILED_AP_NOT_REACHED "Kon nie verbind nie, aangesien toegang nie bereik kan word nie"
-#define D_CONNECT_FAILED_WRONG_PASSWORD "Kon nie verbind nie"
-#define D_CONNECT_FAILED_AP_TIMEOUT "Kon nie verbinding maak met AP-time-out nie"
-#define D_ATTEMPTING_CONNECTION "Attempting connection..."
+#define D_CONNECT_FAILED_NO_IP_ADDRESS "Kan nie verbind nie omdat geen IP-adres ontvang is nie"		//kon changed to kan
+#define D_CONNECT_FAILED_AP_NOT_REACHED "Kan nie verbind nie, aangesien toegang nie bereik kan word nie"	//kon changed to kan
+#define D_CONNECT_FAILED_WRONG_PASSWORD "Kan nie verbind nie"	//kon changed to kan
+#define D_CONNECT_FAILED_AP_TIMEOUT "Kan nie verbinding maak met AP-time-out nie"	//kon changed to kan
+#define D_ATTEMPTING_CONNECTION " probeer verbinding..."				//Changed to Afrikaans
 #define D_CHECKING_CONNECTION "Probeer tans verbinding ..."
 #define D_QUERY_DONE "Navraag gedoen. MQTT-dienste gevind"
 #define D_MQTT_SERVICE_FOUND "MQTT-diens gevind op"
 #define D_FOUND_AT "gevind op"
-#define D_SYSLOG_HOST_NOT_FOUND "Syslog Host nie gevind nie"
+#define D_SYSLOG_HOST_NOT_FOUND "Syslog gasheer nie gevind nie"		//host changed to gasheer
 
 // settings.ino
 #define D_SAVED_TO_FLASH_AT "Gestoor in die flash op"
 #define D_LOADED_FROM_FLASH_AT "Uit flash gelaai by"
 #define D_USE_DEFAULTS "Gebruik standaardinstellings"
-#define D_ERASED_SECTOR "Uitgewis sektor"
+#define D_ERASED_SECTOR "Sektor Uitgewis"		//reversed wording
 
 // xdrv_02_webserver.ino
 #define D_NOSCRIPT "Skakel JavaScript aan om Tasmota te gebruik"
@@ -298,13 +294,13 @@
 #define D_FULL_TOPIC "Volledige onderwerp"
 
 #define D_LOGGING_PARAMETERS "Logging parameters"
-#define D_SERIAL_LOG_LEVEL "Serial log level"
-#define D_MQTT_LOG_LEVEL "Mqtt log level"
-#define D_WEB_LOG_LEVEL "Web log level"
-#define D_SYS_LOG_LEVEL "Syslog level"
+#define D_SERIAL_LOG_LEVEL "Serial log vlak"		//level changed to vlak
+#define D_MQTT_LOG_LEVEL "Mqtt log vlak"		//level changed to vlak
+#define D_WEB_LOG_LEVEL "Web log vlak"			//level changed to vlak
+#define D_SYS_LOG_LEVEL "Syslog vlak"			//level changed to vlak
 #define D_MORE_DEBUG "More debug"
-#define D_SYSLOG_HOST "Syslog host"
-#define D_SYSLOG_PORT "Syslog port"
+#define D_SYSLOG_HOST "Syslog gasheer"			//host changed to gasheer
+#define D_SYSLOG_PORT "Syslog poort"			//port changed to poort
 #define D_TELEMETRY_PERIOD "Telemetry period"
 
 #define D_OTHER_PARAMETERS "Ander parameters"
@@ -347,7 +343,7 @@
 #define D_MDNS_ADVERTISE "mDNS adverteer"
 #define D_ESP_CHIP_ID "ESP Chip Id"
 #define D_FLASH_CHIP_ID "Flash Chip Id"
-#define D_FLASH_CHIP_SIZE "Flash Size"
+#define D_FLASH_CHIP_SIZE "Flash groote"		//size changed to groote
 #define D_FREE_PROGRAM_SPACE "Vrye program grootte"
 
 #define D_UPGRADE_BY_WEBSERVER "Opgradeer per webbediener"
